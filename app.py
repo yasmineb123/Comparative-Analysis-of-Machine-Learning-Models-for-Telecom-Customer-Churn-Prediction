@@ -2,7 +2,7 @@
 #  TELCO CUSTOMER CHURN — ANALYSE COMPLÈTE
 #  Google Colab — Tout dans une seule cellule
 # ============================================================
-
+import streamlit as st
 # ── 0. INSTALLATIONS & IMPORTS ──────────────────────────────
 import warnings
 warnings.filterwarnings("ignore")
