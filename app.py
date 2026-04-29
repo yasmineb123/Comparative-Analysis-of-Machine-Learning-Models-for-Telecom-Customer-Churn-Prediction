@@ -39,11 +39,11 @@ RANDOM_STATE = 42
 np.random.seed(RANDOM_STATE)
 
 # ── 1. CHARGEMENT DES DONNÉES ────────────────────────────────
-from google.colab import drive
+#from google.colab import drive
 #Monter Google Drive
-drive.mount('/content/drive')
+#drive.mount('/content/drive')
 #Specifie le chemin vers ton fichier csv sur Goggle Drive
-file_path ='/content/drive/MyDrive/WA_Fn-UseC_-Telco-Customer-Churn.csv'
+file_path ='WA_Fn-UseC_-Telco-Customer-Churn.csv'
 #charger les donnees depuis le fichier CSV
 import pandas as pd
 df = pd.read_csv(file_path)
